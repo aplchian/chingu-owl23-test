@@ -1,39 +1,18 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {NavBar} from './NavBar.js';
 
-
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div>
-      <div className ="jumbotron jumbotron-fluid align-baseline" style={{backgroundImage:'url(bgimg.jpg)'}}>
-       <div className ="container">
-         <h1> Chingu Owls team 23 React Splash Page </h1>
-         <p> with Bootstrap and SASS </p>
-         <p><a className="btn btn-primary" href="http://www.google.com" target="_blank"> Discovery things</a></p>
-
-       </div>
-
-     </div>
-     div className="panel panel-default">
- <div className="panel-heading">Panel heading without title</div>
- <div className="panel-body">
-   Panel content
- </div>
-</div>
-
-<div className="panel panel-default">
- <div className="panel-heading">
-   <h3 className="panel-title">Panel title</h3>
- </div>
- <div className="panel-body">
-   Panel content
- </div>
-</div>
-</div>
+  			<NavBar />
+        <h1>All About Me!</h1>
+        <p>I like movies and blah blah blah blah blah</p>
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-monkeyselfie.jpg" />
+      </div>
     );
   }
 }
 
-export default App;
+ReactDOM.render(<App />, document.getElementById('app'))
