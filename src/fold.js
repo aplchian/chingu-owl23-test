@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 
 export class AttentionGrabber extends React.Component {
 	render() {
