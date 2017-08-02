@@ -3,6 +3,7 @@ import React from 'react';
 export class AttentionGrabber extends React.Component {
 	render() {
 		return (
+      <div>
       <div class="panel panel-default">
   <div class="panel-heading">Panel heading without title</div>
   <div class="panel-body">
@@ -17,6 +18,7 @@ export class AttentionGrabber extends React.Component {
   <div class="panel-body">
     Panel content
   </div>
+</div>
 </div>
     );
 	}
