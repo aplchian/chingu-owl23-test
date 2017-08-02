@@ -12,8 +12,9 @@ class App extends Component {
          <p> with Bootstrap and SASS </p>
          <p><a className="btn btn-primary" href="http://www.google.com" target="_blank"> Discovery things</a></p>
        </div>
-       <AttentionGrabber />
+
      </div>
+     <AttentionGrabber />
     );
   }
 }

@@ -2,6 +2,22 @@ import React from 'react';
 
 export class AttentionGrabber extends React.Component {
 	render() {
-		return <h1>WELCOME TO MY HOMEPAGE!</h1>;
+		return (
+      <div class="panel panel-default">
+  <div class="panel-heading">Panel heading without title</div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Panel title</h3>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+    );
 	}
 }
