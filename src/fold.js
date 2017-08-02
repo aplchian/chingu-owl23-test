@@ -1,22 +1,21 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 
-class AttentionGrabber extends Component {
+export class AttentionGrabber extends React.Component {
 	render() {
 		return (
       <div>
-      <div class="panel panel-default">
-  <div class="panel-heading">Panel heading without title</div>
-  <div class="panel-body">
+      <div className="panel panel-default">
+  <div className="panel-heading">Panel heading without title</div>
+  <div className="panel-body">
     Panel content
   </div>
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Panel title</h3>
+<div className="panel panel-default">
+  <div className="panel-heading">
+    <h3 className="panel-title">Panel title</h3>
   </div>
-  <div class="panel-body">
+  <div className="panel-body">
     Panel content
   </div>
 </div>
@@ -24,5 +23,3 @@ class AttentionGrabber extends Component {
     );
 	}
 }
-
-export default AttentionGrabber;
