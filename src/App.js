@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import { AttentionGrabber } from './AttentionGrabber';
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
          <p> with Bootstrap and SASS </p>
          <p><a className="btn btn-primary" href="http://www.google.com" target="_blank"> Discovery things</a></p>
        </div>
+       <AttentionGrabber />
      </div>
     );
   }
