@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
-export class AttentionGrabber extends React.Component {
+class AttentionGrabber extends React.Component {
 	render() {
 		return (
       <div>
@@ -24,3 +24,5 @@ export class AttentionGrabber extends React.Component {
     );
 	}
 }
+
+export default AttentionGrabber;
