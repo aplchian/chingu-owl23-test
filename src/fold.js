@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class AttentionGrabber extends React.Component {
+class AttentionGrabber extends Component {
 	render() {
 		return (
       <div>
