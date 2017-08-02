@@ -12,7 +12,21 @@ class App extends Component {
          <p> with Bootstrap and SASS </p>
          <p><a className="btn btn-primary" href="http://www.google.com" target="_blank"> Discovery things</a></p>
        </div>
+       div className="panel panel-default">
+   <div className="panel-heading">Panel heading without title</div>
+   <div className="panel-body">
+     Panel content
+   </div>
+ </div>
 
+ <div className="panel panel-default">
+   <div className="panel-heading">
+     <h3 className="panel-title">Panel title</h3>
+   </div>
+   <div className="panel-body">
+     Panel content
+   </div>
+ </div>
      </div>
     );
   }
